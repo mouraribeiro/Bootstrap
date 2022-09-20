@@ -1,7 +1,34 @@
 
+
+
+body{
+    background-color:#212529;
+}
+
+.logo{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.nav-link{
+    color: #f7f7f7;
+    margin-top: 10px;
+}
+.nav-link:hover{
+    border:  1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+    transition: 0.5ms;
+}
+
 section {
     padding-bottom: 4rem;
     padding-top: 4rem;
+    color: aliceblue;
+}
+h2{
+    margin-bottom: 20px;
 }
 
 input,
@@ -14,6 +41,10 @@ textarea {
     float: left;
     margin: 5px;
 }
+.card-title{
+    font-size: 2rem;
+   
+}
 
 .img-contato{
     width: 400px;
@@ -24,4 +55,58 @@ textarea {
 
 .paragrafo-5{
     margin-top: 20px;
+}
+
+.carousel{
+   width: 800px;
+   height: 75vh;
+}
+
+.banner{
+    display: grid;    
+    margin: 20px 20px;
+    padding: 10px 0px;
+    
+   
+}
+.card{
+    background-color: #f7f7f7;
+    color: #212529;
+   
+}
+
+button{
+    background-color: #212529;
+    color: #fff;
+}
+.but-contato{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.but-contato:hover{
+  background-color:#424649;  
+}
+
+.but-cadastro{
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.but-cadastro:hover{
+  background-color:#424649;  
+}
+
+
+.link-cadastre{
+    text-decoration: none;
+    color: #f7f7f7;
+    margin-top: 5px;
+}
+
+.link-cadastre:hover{
+    border: 2px solid #fff;
+    color: #f7f7f7;
+    padding: 5px;
 }
